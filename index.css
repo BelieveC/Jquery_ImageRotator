@@ -1,0 +1,16 @@
+#photogallery{
+	position: relative;
+	height: 190px;
+	widows: 240px;
+}
+#photogallery div{
+	position: absolute;
+	z-index: 0;
+}
+
+#photogallery div.current{
+	z-index: 2;
+}
+#photogallery div.previous{
+	z-index: 1;
+}
